@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateus Eduardo Pereira - Desenvolvedor Frontend</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/imagens/portifolio-de-negocios.png">
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">MP</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 😄,</p>
+          <h1>Me chamo Mateus Eduardo Pereira</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/1654126314191.jpg" alt="foto de perfil do Mateus" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/1654126314191.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Mateus Eduardo Pereira e sou um desenvolvedor frontend em
+              formação!</strong>
+              Tenho me apaixonado cada vez mais pela área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Tenho me dedicado constantemente à prática das habilidades que aprendi, ao mesmo tempo que aprendo novas, algo que o curso DevQuest tem me ajudado muito. 😁
+          </p>
+
+          <p>
+            Ah, gosto de esportes, jogos, música, séries, filmes e animes.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Algumas das minhas habilidades aprendidas no curso são: Elementos, tags, metatags, imagens, icones, videos, iframes, formulários, entre outros!</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Durante minhas aulas de CSS aprendi sobre ids, classes, unidades de medida, media queries, estilização, posicionamento, seletores, variáveis, flex, grid, entre outros!</p>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Após completado os módulos de HTML, CSS e Git/GitHub, estou entrando nos módulos de JS. Além dos conhecimentos de código em javascript, outras habilidades que irei aprender são: Testes automatizados em Jest, react, context API, redux, typescript!</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Já no módulo de Git, aprendi sobre versionamento de código, estados de arquivos e outras "coisitas mas". Lembrando sempre das boas práticas de clean code!</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Quer mais detalhes sobre meus estudos, códigos, projetos e etc? Que tal dar uma olhada no meu perfil do GitHub? <a href="#" class="clique-aqui">Clique aqui!</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="src/imagens/Banner projeto lp mapadevweek.PNG" alt="projeto landing page Agência XPTO"/>
+            <h3>Landing page Agência XPTO</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto landing page com carrossel de imagens feito através de HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="src/imagens/Em Breve.jpg" alt="Em Breve" />
+            <h3>Em Breve</h3>
+            <div class="informacoes-projeto">          
+              <p>Em Breve</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com">
+            <img src="src/imagens/Em Breve.jpg" alt="Em Breve" />
+            <h3>Em Breve</h3>
+            <div class="informacoes-projeto">
+              <p>Em Breve</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="src/imagens/Em Breve.jpg" alt="Em Breve" />
+            <h3>Em Breve</h3>
+            <div class="informacoes-projeto">
+              <p>Em Breve</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
