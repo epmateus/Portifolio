@@ -1,4 +1,4 @@
-#  <h1 align="center">Portifólio Dev Jr Mateus Pereira </h1>
+#  <h1 align="center">Portifólio Dev Jr Mateus Eduardo Pereira </h1>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/97775852/210595816-d52a0f52-64ea-443f-90fe-486e49fb5a02.PNG"/>
