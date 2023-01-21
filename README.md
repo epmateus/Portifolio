@@ -17,9 +17,9 @@ https://user-images.githubusercontent.com/97775852/210603176-73b4573c-1298-4471-
 ## 📁 Acesso
 Para ter acesso ao portifólio, basta entrar no link do GitHub Pages: https://epmateus.github.io/Portifolio/
 
-## :triangular_ruler: Tecnologias utilizadas
-* HTML5
-* CSS3
+## :mortar_board: Tecnologias utilizadas
+- `HTML5`
+- `CSS3`
 
 # Autor
 
